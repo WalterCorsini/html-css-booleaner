@@ -32,6 +32,10 @@ tr:nth-child(odd) {
     background-color: #b3d2ff;
 }
 
+ul{
+  padding-left: 15px;  
+}
+
 .foto{
     width: 49%;
 }
