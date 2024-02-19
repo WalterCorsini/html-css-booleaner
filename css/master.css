@@ -2,6 +2,7 @@ header{
     height: 100px ;
     background: url(../img/pattern.png);
     background-color: rgb(114, 164, 255);
+    background-size: contain;
  }
  div{
    width: 15%;
