@@ -1,0 +1,11 @@
+header{
+    height: 100px ;
+    background: url(../img/pattern.png);
+    background-color: rgb(114, 164, 255);
+ }
+ div{
+   width: 15%;
+    /* ho utilizzato questa soluzione perche ancora non abbiamo affrontato il discorso position relative,absolute...*/
+   padding-top: 2.5%;
+   padding-left: 1%; 
+ }
