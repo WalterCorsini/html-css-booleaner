@@ -46,3 +46,21 @@ h1{
 .mark{
     background-color: yellow;
 }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+td{
+    width: 33.333333%;
+}
+
+#title-table{
+    background: dodgerblue;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #b3d2ff;
+}
