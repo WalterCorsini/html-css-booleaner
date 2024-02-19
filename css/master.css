@@ -57,8 +57,8 @@ tr:nth-child(odd) {
 }
 
 .foto-uno{
-background-image: url(../img/graph.jpg);
-background-size: cover;
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
 }
 
 .foto-due{
