@@ -1,8 +1,14 @@
-body{
-    width: 100%;
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
+/* header */
 header{
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100px ;
     width: 100%;
     background: url(../img/pattern.png);
@@ -11,12 +17,60 @@ header{
     position: relative;
 }
 
-footer{
-    margin-top: 100px;
+.logo{
+    width: 15%;
+    bottom: 2%;
+    left: 2%;
+    position: absolute;
+}
+/* /header */
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* section title */
+#title{
+    width: 100%;
 }
 
 h1{
     font-size: 50px;
+}
+
+.subtitle, #data-title{
+    color: rgb(130, 130, 130);
+}
+
+#writer{
+    color: rgb(48, 175, 230);
+    
+}
+
+#data-title{
+    font-size: 10px;
+}
+
+.foto{
+    width: 49%;
+}
+/* /section title */
+
+/* speech */
+.mark{
+    background-color: yellow;
+}
+
+ul{
+    padding-left: 15px;  
+  }
+/* /speech */
+
+/* table */
+#title-table{
+    background: dodgerblue;
+    color: white;
 }
 
 table{
@@ -31,27 +85,30 @@ td{
 tr:nth-child(odd) {
     background-color: #b3d2ff;
 }
+/* /table */
 
-ul{
-  padding-left: 15px;  
+/* footer */
+footer{
+    margin-top: 100px;
 }
 
-.foto{
-    width: 49%;
+.footer-title{
+    color: rgb(130, 130, 130);
+}  
+
+.container-foto{
+    display: flex;
+    gap: 10px;
 }
 
-.mark{
-    background-color: yellow;
-}
-
-.footer-foto{
+.card-foto{
     height: 200px;
     width: 300px;
     color: rgb(255, 255, 255);
     padding: 15px;
     position: relative;
     margin: 10px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .text-foto{
@@ -69,35 +126,4 @@ ul{
     background-image: url(../img/monitor.jpg);
     background-size: cover;
 }
-    
-.footer-title{
-    color: rgb(130, 130, 130); 
-}  
-
-.subtitle, #data-title{
-    color: rgb(130, 130, 130);
-}
-
-.logo{
-    width: 15%;
-    bottom: 2%;
-    left: 2%;
-    position: absolute;
-}
-
-#title{
-    width: 100%;
-}
-  
-#writer{
-    color: rgb(48, 175, 230);
-}
-
-#data-title{
-    font-size: 10px;
-}
-
-#title-table{
-    background: dodgerblue;
-    color: white;
-}
+/* /footer */
